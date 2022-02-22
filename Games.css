@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.OZkE1E22rlzv37oH791FXwHaEK?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:cornsilk;
+    text-align: center;
+    padding: 20px;
+}
+ul{
+    list-style-type:none;
+    margin:0px;
+    padding: 0px;
+    background-color:darkblue;
+    overflow:hidden;
+}
+.nav{
+    float: left;
+}
+.nav a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+}
+.nav a:hover{
+    background-color:chocolate;
+    color:ghostwhite;
+}
+.content{
+    font-size:smaller;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: auto auto auto auto;
+}
+.item{
+    background-color: blue;
+}
+.item img{
+    height: 250px;
+    width: 250px;
+    border:cornflowerblue 5px groove;
+}
+.item img:hover{
+    height: 350px;
+    width: 350px;
+    border:blue 10px ridge;
+}
